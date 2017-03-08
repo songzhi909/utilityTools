@@ -1,38 +1,26 @@
 package com.songzhi.utilityTools;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
+
+import com.songzhi.utils.SpringContent;
+import com.tianjian.security.bean.SecurityStaffBaseinfo;
 
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-    extends TestCase
-{
-    /**
-     * Create the test case
-     *
-     * @param testName name of the test case
-     */
-    public AppTest( String testName )
-    {
-        super( testName );
-    }
+public class AppTest {
+  
+  @Test
+  public void AppTest() {
+    /*try {
+      
+      SecurityStaffBaseinfo user = service.findByName("caos");
+      System.out.println(user.getName() + ": \t" + user.getHspConfigBaseinfoId());
+      
+    } catch (Exception e) { 
+      e.printStackTrace();
+    }*/
+  }
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        return new TestSuite( AppTest.class );
-    }
-
-    /**
-     * Rigourous Test :-)
-     */
-    public void testApp()
-    {
-        assertTrue( true );
-    }
+   
 }
